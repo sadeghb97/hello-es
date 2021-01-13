@@ -23,6 +23,13 @@ for(const v of player){
 }
 console.log("-------------")
 
+let pIterator = player[Symbol.iterator]()
+console.log(pIterator.next())
+console.log(pIterator.next())
+console.log(pIterator.next())
+console.log("-------------")
+
+
 //Another Example
 class AdvancedPlayer extends Player {
   constructor(){
