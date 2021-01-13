@@ -14,7 +14,7 @@ console.log(person['person age']) // error nemide vali jaleb nist :(
 
 
 //vijegihaye jadide object ha
-//1: sade sazi vaghti name property va moteghayyere joloye an yeksan hast
+//1: sade sazi vaghti name property va moteghayyere joloye an yeksan hast (ham baraye property ha ham method ha)
 //2: ghabeliate key haye dynamic
 
 let fname = "Sadegh"
@@ -26,7 +26,11 @@ let student = {
   fname,
   lname,
   age,
-  [cityKey]: "Bushehr"
+  [cityKey]: "Bushehr",
+  hello(){
+    console.log("Student: Hello")
+  }
 }
 
 console.log(student)
+student.hello()
