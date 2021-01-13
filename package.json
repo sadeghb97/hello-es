@@ -1,0 +1,22 @@
+{
+  "name": "hello-es",
+  "version": "1.0.0",
+  "description": "Some basic es examples",
+  "main": "try1-let-const.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sadeghb97/hello-es.git"
+  },
+  "author": "Sadegh Bagherzadeh",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sadeghb97/hello-es/issues"
+  },
+  "homepage": "https://github.com/sadeghb97/hello-es#readme",
+  "dependencies": {
+    "axios": "^0.21.1"
+  }
+}
