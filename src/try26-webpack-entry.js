@@ -29,10 +29,13 @@ ba baz kardane an file html in file js be dorosti ejra khahad shod */
 /* in file ra ba node nemitavanim ejra konim. ba ejraye an error khahim gereft
 baraye rafe error bayad type: "module" ra dar package.json ghabl az script ezafe konim
 ba in kar hame file haye js be onvane module haye es6 compile khahand shod
-in kar sabab mishavad ke webpack be dorosti amal nakonad. pas agar niaz be ejra tavasote node
-darim in property ra be package.json ezafe mikonim agar mikhahim in file ra dar morurgar ejra konim
-bayad type: "module" ra hazf konim */
+in kar be tore ajibi sabab mishavad ke webpack be dorosti amal nakonad.
+pas agar niaz be ejra tavasote nodedarim in property ra be package.json ezafe mikonim agar 
+mikhahim in file ra dar morurgar ejra konim bayad type: "module" ra hazf konim */
 
 /* yek copy az in file va module import shode dar in file ba pasvande mjs ijad shode ast
-vaghti serahatan pasvand ra mjs migozarim node an ra be onvane module es6 compile khahad kard */ 
+vaghti serahatan pasvand ra mjs migozarim node an ra be onvane module es6 compile khahad kard
+pas an hara mitavanim ba node ham ejra konim */ 
 
+/* taghriban tamame tafavot beine cjs va mjs az dide node dar nahve import va export kardane
+ file ha ya module hast */
