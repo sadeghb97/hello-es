@@ -16,10 +16,14 @@ hamchenin ba optione --watch ba har taghiri file nahaei beruz mishavad */
 
 import Player from './try26-my-specific-module.js' // -> importe default -> bedune akolad
 import { playerObject, sayHello } from './try26-my-specific-module.js' // -> importe mamuli
+import FunnyLog from 'funny-log'
 
 sayHello()
 console.log(playerObject)
 console.log(new Player("Leo Messi", 36))
+
+let funnyLogger = new FunnyLog()
+funnyLogger.iDontCare("I done care!")
 
 /* dar masire proje dar terminal mizanim
 npm run build -> sepas file bundle.js dar pushe build sakhte khahad shod
