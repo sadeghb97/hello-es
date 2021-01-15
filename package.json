@@ -18,7 +18,10 @@
   },
   "homepage": "https://github.com/sadeghb97/hello-es#readme",
   "dependencies": {
+    "@babel/core": "^7.12.10",
+    "@babel/preset-env": "^7.12.11",
     "axios": "^0.21.1",
+    "babel-loader": "^8.2.2",
     "funny-log": "0.0.9",
     "webpack": "^4.34.0",
     "webpack-cli": "^3.3.4"

@@ -12,6 +12,19 @@ kam hajm tar bashad. ama dar mode development code khanaei bishtari darad
 hamchenin ba optione --watch ba har taghiri file nahaei beruz mishavad */
 
 
+/* dar kenare webpack hamchenin mitavanim az abzare babel estefade konim. ba in abzar 
+code haye javascripti ke dar nahayat dar yek file bundle mishavad be gune ei ijad mishavad
+ke ghabeliate ejra dar morurgar haye ghadimi ke masalan az es6 poshtibani nemikonand 
+ra ham dashte bashed. be in surat ehtemalan hajme file bundle nahaei afzayeshe 
+ghabele molaheze ei khahad dasht 
+baraye estefade az an mitavan be linke zir raft
+https://babeljs.io/setup
+
+be tore kolli bayad chand package nasb konim va yek file babel.config.js dar kenare 
+webpack-config.js be vojud biavarim va be file confige webpack tanzimati ra ezafe konim.
+*/
+
+
 /* nahve import kardane class ha, function ha, moteghayyer ha va ... az baghie file ha : */
 
 import Player from './try26-my-specific-module.js' // -> importe default -> bedune akolad
